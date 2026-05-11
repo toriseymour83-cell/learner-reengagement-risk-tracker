@@ -1,1 +1,8 @@
 
+learner_id,last_work_submitted_days,last_contact_days,recent_positive_contact,previous_disengagement
+L001,8,4,Yes,Yes
+L002,18,12,No,Yes
+L003,5,3,Yes,No
+L004,3,2,Yes,No
+L005,21,15,No,Yes
+L006,14,9,No,No
