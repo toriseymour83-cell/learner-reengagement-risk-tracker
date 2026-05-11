@@ -1,0 +1,7 @@
+learner_id,learner_name,provision_type,tutor,attendance_rate,last_work_submitted_days,last_contact_days,risk_score,risk_level,suggested_action
+L001,Alex Morgan,EOTAS,J Patel,70,8,4,2,Low,Continue monitoring
+L002,Sam Taylor,NEET re-engagement,R Williams,55,18,12,10,High,Parent/carer contact and tutor check-in
+L003,Jordan Lee,Alternative provision,S Khan,80,5,3,0,Low,Continue current support
+L004,Casey Brown,Supported internship,J Patel,90,3,2,0,Low,Continue current support
+L005,Riley Evans,EOTAS,R Williams,45,21,15,11,High,SEND review and tutor check-in
+L006,Morgan Clark,Online tutoring,S Khan,65,14,9,6,High,Tutor check-in and learning plan review
