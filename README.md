@@ -28,6 +28,16 @@ This project demonstrates how those indicators could be brought together into a 
 - A sample data plan
 - A dashboard plan
 
+## Sample files
+
+| File | Purpose |
+|---|---|
+| data/learners_sample.csv | Fictional learner profile data |
+| data/attendance_sample.csv | Fictional attendance data |
+| data/engagement_sample.csv | Fictional engagement indicators |
+| data/interventions_sample.csv | Fictional support action records |
+| outputs/learner_risk_summary.csv | Example reporting-ready risk summary |
+
 ## Planned next steps
 
 - Create fictional sample CSV files
