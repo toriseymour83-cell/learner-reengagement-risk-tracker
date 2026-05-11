@@ -1,0 +1,8 @@
+
+learner_id,learner_name,age,provision_type,send_status,ehcp_status,primary_barrier,tutor
+L001,Alex Morgan,16,EOTAS,Yes,Yes,Anxiety,J Patel
+L002,Sam Taylor,17,NEET re-engagement,No,No,Low confidence,R Williams
+L003,Jordan Lee,16,Alternative provision,Yes,No,Attendance pattern,S Khan
+L004,Casey Brown,18,Supported internship,Yes,Yes,Communication needs,J Patel
+L005,Riley Evans,15,EOTAS,Yes,Yes,Health needs,R Williams
+L006,Morgan Clark,17,Online tutoring,No,No,Work avoidance,S Khan
