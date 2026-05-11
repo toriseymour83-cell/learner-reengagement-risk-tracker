@@ -1,37 +1,52 @@
-# learner-reengagement-risk-tracker
-A small data project that helps identify which learners may need support before they fully disengage.
-
 # Learner Re-engagement Risk Tracker
 
-A sample data project showing how attendance, engagement and support information can be combined to help identify learners who may need earlier intervention.
+A portfolio project showing how attendance, engagement and support data could be combined to help identify learners who may need earlier intervention.
 
-This project is designed around learners in SEND, EOTAS, alternative provision or NEET re-engagement settings.
+This project is based around learners in SEND, EOTAS, alternative provision and NEET re-engagement settings.
 
 The aim is not to label learners or automate decisions. The aim is to help tutors and support teams notice patterns earlier, record interventions consistently and make better-informed support decisions.
 
-## What the project will include
+## Project purpose
 
-- Sample learner data
-- Sample attendance data
-- Sample intervention records
-- A Python script to combine and clean the data
-- A simple risk scoring model
-- A reporting-ready output file
-- Power BI dashboard notes or screenshots
+Many learners who are at risk of disengaging show early signs before they fully stop attending or submitting work.
+
+These signs may include:
+
+- reduced attendance
+- missed work
+- no recent tutor contact
+- known barriers affecting engagement
+- previous disengagement concerns
+
+This project demonstrates how those indicators could be brought together into a simple, transparent risk tracker.
+
+## What this project includes
+
+- A risk scoring model
+- Ethical notes on the use of learner data
+- A data dictionary
+- A sample data plan
+- A dashboard plan
+
+## Planned next steps
+
+- Create fictional sample CSV files
+- Build a reporting-ready learner risk summary
+- Add example dashboard screenshots or mock-ups
+- Add a Python script when the development environment is available
 
 ## Skills demonstrated
 
 - Education data analysis
-- SEND/NEET support context
-- Data cleaning with Python
-- CSV handling
+- SEND, EOTAS and NEET learner support context
+- Data structure planning
 - Risk scoring logic
 - Dashboard planning
 - Ethical use of learner data
-- Translating operational needs into practical reporting
+- Translating operational education needs into practical reporting
 
-## Example use case
+## Important note
 
-A tutor or programme lead could use this type of tracker to identify learners who have missed sessions, stopped submitting work, or have not had recent support contact.
+This project uses fictional sample data only.
 
-The output would help staff prioritise supportive follow-up, such as a check-in, timetable review, parent/carer contact or referral to additional support.
+It is not designed to make automated decisions about learners. Any risk score should be used as a prompt for human review and supportive follow-up.
