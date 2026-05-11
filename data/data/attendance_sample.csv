@@ -1,0 +1,7 @@
+learner_id,sessions_expected,sessions_attended,missed_sessions,attendance_rate
+L001,20,14,6,70
+L002,20,11,9,55
+L003,20,16,4,80
+L004,20,18,2,90
+L005,20,9,11,45
+L006,20,13,7,65
