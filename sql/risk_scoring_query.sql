@@ -39,7 +39,48 @@ SELECT
     CASE
         WHEN e.recent_positive_contact = 'No' THEN 1
         ELSE 0
-    END AS positive_contact_points
+    END AS positive_contact_points,
+
+    (
+        CASE
+            WHEN a.attendance_rate < 50 THEN 5
+            WHEN a.attendance_rate < 70 THEN 3
+            WHEN a.attendance_rate < 80 THEN 1
+            ELSE 0
+        END
+
+        +
+
+        CASE
+            WHEN e.last_work_submitted_days > 20 THEN 3
+            WHEN e.last_work_submitted_days > 14 THEN 2
+            WHEN e.last_work_submitted_days > 7 THEN 1
+            ELSE 0
+        END
+
+        +
+
+        CASE
+            WHEN e.last_contact_days > 14 THEN 2
+            WHEN e.last_contact_days > 7 THEN 1
+            ELSE 0
+        END
+
+        +
+
+        CASE
+            WHEN e.previous_disengagement = 'Yes' THEN 2
+            ELSE 0
+        END
+
+        +
+
+        CASE
+            WHEN e.recent_positive_contact = 'No' THEN 1
+            ELSE 0
+        END
+
+    ) AS total_risk_score
 
 FROM learners_sample l
 
